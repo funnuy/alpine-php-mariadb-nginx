@@ -15,5 +15,5 @@ RUN apk --update add \
   redis \
   bash
 
-ENTRYPOINT ["bash", "/volume/docker/run.sh"]
+# ENTRYPOINT ["bash", "/volume/docker/run.sh"]
 
